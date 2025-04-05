@@ -49,8 +49,8 @@ cmake_ninja_workdir = C$:/Users/vande/CLionProjects/untitled1/cmake-build-debug/
 
 build cmake_object_order_depends_target_untitled1: phony || CMakeFiles/untitled1.dir
 
-build CMakeFiles/untitled1.dir/hw5_q1c.cpp.obj: CXX_COMPILER__untitled1_unscanned_Debug C$:/Users/vande/CLionProjects/untitled1/hw5_q1c.cpp || cmake_object_order_depends_target_untitled1
-  DEP_FILE = CMakeFiles\untitled1.dir\hw5_q1c.cpp.obj.d
+build CMakeFiles/untitled1.dir/hw5_q1b.cpp.obj: CXX_COMPILER__untitled1_unscanned_Debug C$:/Users/vande/CLionProjects/untitled1/hw5_q1b.cpp || cmake_object_order_depends_target_untitled1
+  DEP_FILE = CMakeFiles\untitled1.dir\hw5_q1b.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\untitled1.dir
   OBJECT_FILE_DIR = CMakeFiles\untitled1.dir
@@ -63,7 +63,7 @@ build CMakeFiles/untitled1.dir/hw5_q1c.cpp.obj: CXX_COMPILER__untitled1_unscanne
 #############################################
 # Link the executable untitled1.exe
 
-build untitled1.exe: CXX_EXECUTABLE_LINKER__untitled1_Debug CMakeFiles/untitled1.dir/hw5_q1c.cpp.obj
+build untitled1.exe: CXX_EXECUTABLE_LINKER__untitled1_Debug CMakeFiles/untitled1.dir/hw5_q1b.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\untitled1.dir
